@@ -1,0 +1,102 @@
+
+
+.HeroImage{
+    display: grid;
+    background-image: url('/images/heroImage.jpg');
+    background-size: cover;
+    height: 100vh;
+    grid-template-columns: 10% 80% 10%;
+    grid-template-rows: 20% 30% 20% 30%;
+}
+
+.GridWrapper{
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    display: grid;
+    grid-template-columns: repeat(12, 8% auto);
+    
+}
+
+.LogoItem{
+    grid-column: 1/2;
+    align-self: end;
+    font-size: 48pt;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+}
+
+.Navigation{
+    grid-column: 11/20;
+    color: white;
+    align-self: end;
+    font-size: 16pt;
+    margin-bottom: 10px;
+}
+
+.navLink{
+    margin: 0 10px;
+    cursor: pointer;
+    font-family: "Scada";
+}
+
+.Button{
+    grid-column: 20/24;
+    align-self: end;
+    border: 2px #AA8900 solid;
+    width: 70%;
+    color: white;
+    font-weight: 600;
+    height: 18px;
+    padding: 10px 4%;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 10pt;
+    font-family: 'Montserrat';
+}
+
+.SearchWrapper{
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+    width: 60%;
+}
+
+.SearchText{
+    font-size: 20pt;
+    color: white;
+    font-weight: 600;
+    font-family: 'Montserrat';
+    margin: 0;
+}
+
+.SearchInput{
+    margin-top: 30px;
+    height: 25px;
+    width: 40%;
+    border-radius: 5px;
+    color: #AA8900;
+    display: inline-block;
+    border-width: 1px;
+    padding-left: 5px;
+    font-size: 8pt;
+}
+
+.SearchButton{
+    grid-column: 20/24;
+    background-color: #AA8900;
+    border-width: 1px;
+    width: 15%;
+    margin-left: 20px;
+    color: white;
+    font-weight: 600;
+    vertical-align: middle;
+    line-height: 20pt;
+    height: 30px;   
+    text-align: center;
+    border-radius: 5px;
+    font-size: 10pt;
+    font-family: 'Montserrat';
+    display: inline-block;
+    text-align: center;
+}

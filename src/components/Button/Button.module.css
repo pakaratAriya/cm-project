@@ -1,0 +1,32 @@
+.Button{
+    width: 10%;
+    border: 1px #AA8900 solid;
+    color: #AA8900;
+    font-size: 1.2vw;
+    border-radius: 5px;
+}
+
+.GoldWhiteBtn{
+    width: 10%;
+    border: 1px #AA8900 solid;
+    color: white;
+    font-size: 0.8vw;
+    padding: 10px 4%;
+    text-align: center;
+    border-radius: 2px;
+    display: inline-block;
+    font-family: 'Montserrat';
+}
+
+@media screen and (max-width: 800px){
+    .GoldWhiteBtn{
+        width: 10%;
+        padding: 5px 2%;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .GoldWhiteBtn{
+        width: 10%;
+    }
+}

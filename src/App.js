@@ -1,10 +1,11 @@
 import React from 'react';
 import classes from './App.module.css';
+import Home from './containers/Home/Home'
 
 function App() {
   return (
-    <div>
-      Landing page goes here...
+    <div className={classes.App}>
+      <Home/>
     </div>
   );
 }

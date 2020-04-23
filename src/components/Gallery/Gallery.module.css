@@ -1,0 +1,22 @@
+.Gallery{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(3, 33.333%);
+}
+
+.ListItem{
+    display: block;
+    padding-top: 80vh;
+    padding-left: 30px;
+    color: white;
+    font-weight: 600;
+    font-family: "Scada";
+}
+
+.ListItem > p{
+    margin: 2px;
+}
+
+.ListSubTitle{
+    font-size: 20pt;
+}

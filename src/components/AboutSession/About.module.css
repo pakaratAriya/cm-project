@@ -1,0 +1,52 @@
+.About{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    font-size: 9pt;
+    color: white;
+}
+
+.AboutPhoto{
+    grid-column: 1 / 2;
+    background-image: url('/images/aboutPhoto.jpg');
+    background-size: cover;
+}
+
+.AboutSession{
+    background-color: black;
+    padding: 10% 40px;
+
+}
+
+.AboutTitle{
+    width: 80%;
+    color: #AA8900;
+    text-align: center;
+    font-size: 24pt;
+}
+
+.AboutMessage{
+    width: 80%;
+
+}
+
+.AboutButtons{
+    width: 80%;
+}
+
+.Button{
+    border: 2px #AA8900 solid;
+    width: 25%;
+    color: #AA8900;
+    font-weight: 600;
+    height: 18px;
+    padding: 10px 4%;
+    text-align: center;
+    border-radius: 5px;
+    margin: 60px 20px;
+    margin-bottom: 0;
+    font-size: 10pt;
+    font-family: 'Montserrat';
+    display: inline-block;
+
+}
