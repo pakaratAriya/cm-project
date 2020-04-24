@@ -1,7 +1,4 @@
 import React from 'react'
-import Navigation from './Navigation/Navigation'
-import Button from '../Button/Button'
-import SearchHome from './SearchHome/SearchHome'
 import classes from './HeroImage.module.css'
 
 const heroImage = props => (

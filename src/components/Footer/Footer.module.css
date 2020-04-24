@@ -1,0 +1,85 @@
+
+
+.Footer{
+    display: grid;
+    background-color: black;
+    height: 30vh;
+    grid-template-columns: 10% 80% 10%;
+}
+
+.GridWrapper{
+    margin-top: 5vh;
+    grid-column: 2 / 3;
+    display: grid;
+    grid-template-columns: repeat(12, 8% auto);
+    
+}
+
+.FooterText{
+    color: #AA8900;
+}
+
+.ContactUs{
+    grid-column: 1 / span 3;
+}
+
+.Service{
+    grid-column: 5 / span 3;
+}
+
+.Information{
+    grid-column: 9 / span 3;
+}
+
+.Subscribe{
+    grid-column: 13 / span 10;
+}
+
+p {
+    font-size: 8pt;
+    margin: 2px;
+}
+.Subtitle{
+    margin-bottom: 10px;
+
+}
+
+.oneLineInput{
+    width: 35%;
+    border-radius: 5px;
+    height: 20px;
+    font-size: 8pt;
+    margin-top: 10px;
+    color: #AA8900;
+    padding-left: 10px;
+    display: inline;
+}
+
+.oneLineInput::placeholder{
+    
+    color: #D5CC99;
+}
+
+.Button{
+    border: 2px #AA8900 solid;
+    width: 20%;
+    display: inline-block;
+    color: #AA8900;
+    font-weight: 600;
+    height: 20px;
+    padding: 2px 4%;
+    margin-left: 10px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 6pt;
+    line-height: 20px;
+    font-family: 'Montserrat';
+    display: inline-block;
+}
+
+.Trademark{
+    font-size: 6pt;
+    margin-left: 20px;
+    vertical-align: bottom;
+    
+}
