@@ -20,25 +20,19 @@
 .LogoItem{
     grid-column: 1/2;
     align-self: end;
-    font-size: 48pt;
-    font-family: 'Montserrat';
-    font-weight: 600;
-    color: white;
     cursor: pointer;
 }
 
 .Navigation{
-    grid-column: 11/20;
-    color: white;
+    grid-column: 9/20;
     align-self: end;
-    font-size: 16pt;
     margin-bottom: 10px;
+    margin-left: 3%;
 }
 
 .navLink{
     margin: 0 10px;
     cursor: pointer;
-    font-family: "Scada";
 }
 
 .Button{
@@ -46,14 +40,11 @@
     align-self: end;
     border: 2px #AA8900 solid;
     width: 70%;
-    color: white;
     font-weight: 600;
     height: 18px;
     padding: 10px 4%;
     text-align: center;
     border-radius: 5px;
-    font-size: 10pt;
-    font-family: 'Montserrat';
 }
 
 .SearchWrapper{
@@ -63,10 +54,6 @@
 }
 
 .SearchText{
-    font-size: 20pt;
-    color: white;
-    font-weight: 600;
-    font-family: 'Montserrat';
     margin: 0;
 }
 
@@ -75,11 +62,10 @@
     height: 25px;
     width: 40%;
     border-radius: 5px;
-    color: #AA8900;
+
     display: inline-block;
     border-width: 1px;
     padding-left: 5px;
-    font-size: 8pt;
 }
 
 .SearchButton{
@@ -88,8 +74,6 @@
     border-width: 1px;
     width: 15%;
     margin-left: 20px;
-    color: white;
-    font-weight: 600;
     vertical-align: middle;
     line-height: 20pt;
     height: 30px;   

@@ -1,15 +1,16 @@
 import React, {Component} from 'react'
 import ContactForm from './ContactForm/ContactForm'
 import classes from './Contact.module.css'
+import fonts from '../../globalCss/Fonts.module.css'
 
 class Contact extends Component{
 
     render(){
         return(
-            <div className={classes.Contact}>
+            <div className={[classes.Contact, fonts.White].join(' ')}>
                 <div className={classes.ContactInfo}>
-                    <p className={classes.Subtitle}>We are here to help<br/>send us a message</p>
-                    <p>
+                    <p className={fonts.H2}>We are here to help<br/>send us a message</p>
+                    <p className={fonts.Caption}>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                         tempor incididunt ut ero labore et dolore magna aliqua. Ut enim ad minim
                         veniam, quis nostrud exercitation ullamco poriti laboris nisi ut aliquip ex ea
@@ -17,10 +18,10 @@ class Contact extends Component{
                         voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
                         occaecat cupidatat norin proident, sunt in culpa qui officia deserunt mollit
                     </p>
-                    <div className={classes.Button} onClick={this.props.click}>
+                    <div className={[classes.Button, fonts.Caption, fonts.Gold].join(' ')} onClick={this.props.click}>
                         More
                     </div>
-                    <div className={classes.Button} onClick={this.props.click}>
+                    <div className={[classes.Button, fonts.Caption, fonts.Gold].join(' ')} onClick={this.props.click}>
                         LET'S TRY
                     </div>
                 </div>

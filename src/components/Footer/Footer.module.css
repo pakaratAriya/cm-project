@@ -15,10 +15,6 @@
     
 }
 
-.FooterText{
-    color: #AA8900;
-}
-
 .ContactUs{
     grid-column: 1 / span 3;
 }
@@ -36,7 +32,6 @@
 }
 
 p {
-    font-size: 8pt;
     margin: 2px;
 }
 .Subtitle{
@@ -48,9 +43,7 @@ p {
     width: 35%;
     border-radius: 5px;
     height: 20px;
-    font-size: 8pt;
     margin-top: 10px;
-    color: #AA8900;
     padding-left: 10px;
     display: inline;
 }
@@ -64,21 +57,16 @@ p {
     border: 2px #AA8900 solid;
     width: 20%;
     display: inline-block;
-    color: #AA8900;
-    font-weight: 600;
     height: 20px;
     padding: 2px 4%;
     margin-left: 10px;
     text-align: center;
     border-radius: 5px;
-    font-size: 6pt;
     line-height: 20px;
-    font-family: 'Montserrat';
     display: inline-block;
 }
 
 .Trademark{
-    font-size: 6pt;
     margin-left: 20px;
     vertical-align: bottom;
     

@@ -1,0 +1,39 @@
+.H1{
+    font-family: "Montserrat";
+    font-size: 48pt;
+    font-weight: 600;
+}
+
+.H2{
+    font-family: "Montserrat";
+    font-size: 24pt;
+    font-weight: 600;
+}
+
+.Subtitle{
+    font-family: "Montserrat";
+    font-size: 14pt;
+    font-weight: 600;
+}
+
+.Body{
+    font-family: "Montserrat";
+    font-size: 13pt;
+}
+
+.Caption{
+    font-family: "Montserrat";
+    font-size: 9pt;
+}
+
+.White{
+    color: #FFFFFF;
+}
+
+.Gold{
+    color: #AA8900;
+}
+
+.Black{
+    color: #000000;
+}

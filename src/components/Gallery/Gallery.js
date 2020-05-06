@@ -1,5 +1,6 @@
 import React from 'react'
 import classes from './Gallery.module.css'
+import fonts from '../../globalCss/Fonts.module.css'
 
 const gallery = props => {
     const galleryList = ["gallery1.jpg", "gallery2.jpg", "gallery3.jpg"]
@@ -9,11 +10,11 @@ const gallery = props => {
         <div className={classes.Gallery}>
             {
                 galleryList.map((g, index)=>(
-                    <div className={classes.ListItem} 
+                    <div className={[classes.ListItem, fonts.Subtitle, fonts.White].join(' ')} 
                         style={{gridColumn: (index+1) + "/" + (index+2),
                         backgroundImage: "url('/images/" + g + "')",
                         backgroundSize: "cover",}}>
-                        <p className={classes.ListSubTitle}>{galleryLocations[index]}</p>
+                        <p className={fonts.H2}>{galleryLocations[index]}</p>
                         <p>{galleryPrice[index]}</p>
                         <p>Welcome Home</p>
                     </div>
