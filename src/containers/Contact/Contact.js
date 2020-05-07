@@ -1,5 +1,7 @@
 import React, {Component} from 'react'
 import ContactForm from './ContactForm/ContactForm'
+import Button from '../../components/Button/Button'
+import {withRouter} from 'react-router-dom'
 import classes from './Contact.module.css'
 import fonts from '../../globalCss/Fonts.module.css'
 
@@ -18,12 +20,21 @@ class Contact extends Component{
                         voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
                         occaecat cupidatat norin proident, sunt in culpa qui officia deserunt mollit
                     </p>
-                    <div className={[classes.Button, fonts.Caption, fonts.Gold].join(' ')} onClick={this.props.click}>
+                    {/* <div className={[classes.Button, fonts.Caption, fonts.Gold].join(' ')} onClick={this.props.click}>
                         More
-                    </div>
-                    <div className={[classes.Button, fonts.Caption, fonts.Gold].join(' ')} onClick={this.props.click}>
-                        LET'S TRY
-                    </div>
+                    </div> */}
+                    <Button
+                        myClass={["mediumBtn", "goldBorder", "transparentBackground", "goldText"]}
+                        click={()=>{
+                            this.props.history.push("/contact")
+                        }}
+                    >More</Button>
+                    <Button
+                        myClass={["mediumBtn", "goldBorder", "transparentBackground", "goldText"]}
+                        click={()=>{
+                            this.props.history.push("/contact")
+                        }}
+                    >LETS TRY</Button>
                 </div>
                 <ContactForm/>
             </div>
@@ -31,4 +42,4 @@ class Contact extends Component{
     }
 }
 
-export default Contact
+export default withRouter(Contact)

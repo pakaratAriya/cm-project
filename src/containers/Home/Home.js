@@ -1,10 +1,10 @@
 import React, {Component} from 'react';
 import classes from './Home.module.css';
-import About from '../../components/AboutSession/About'
-import Gallery from '../../components/Gallery/Gallery'
+import About from '../../components/LandingPage/AboutSession/About'
+import Gallery from '../../components/LandingPage/Gallery/Gallery'
 import Contact from '../Contact/Contact'
 import Footer from '../../components/Footer/Footer'
-import HeroImage from '../../components/HeroImage/HeroImage'
+import HeroImage from '../../components/LandingPage/HeroImage/HeroImage'
 
 class Home extends Component{ 
     render(){

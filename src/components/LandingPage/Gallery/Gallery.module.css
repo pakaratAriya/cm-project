@@ -1,0 +1,25 @@
+.Gallery{
+    height: 100vh;
+    display: grid;
+    width: 100%;
+    overflow: scroll;
+    -webkit-user-select: none;
+    position: relative;
+}
+
+.Gallery::-webkit-scrollbar{
+    background: transparent;
+    height: 0;
+    width: 0;
+
+}
+
+.ListItem{
+    display: block;
+    padding-top: 80vh;
+    padding-left: 30px;
+}
+
+.ListItem > p{
+    margin: 2px;
+}

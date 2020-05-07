@@ -1,9 +1,11 @@
 import React from 'react'
+import Button from '../../Button/Button'
 import classes from './About.module.css';
-import fonts from '../../globalCss/Fonts.module.css'
+import {withRouter} from 'react-router-dom'
+import fonts from '../../../globalCss/Fonts.module.css'
 
 
-const about = props => (
+const About = props => (
     <div className={classes.About}>
         <div className={classes.AboutPhoto}>
         </div>
@@ -30,16 +32,28 @@ const about = props => (
                 that continue to be return clients.
             </p>
             <div className={classes.AboutButtons}>
-                <div className={[classes.Button, fonts.Caption, fonts.Gold].join(' ')} onClick={props.click}>
-                    Learn More
-                </div>
-                <div className={[classes.Button, fonts.Caption, fonts.Gold].join(' ')} onClick={props.click}>
-                    Team
-                </div>
+                <Button
+                    myClass={["mediumBtn", "goldBorder", "transparentBackground", "goldText"]}
+                    click={()=>{
+                        props.history.push({
+                            pathname: '/about',
+                            search: "about"
+                        })
+                    }}
+                    >Learn More</Button>
+                <Button
+                    myClass={["mediumBtn", "goldBorder", "transparentBackground", "goldText"]}
+                    click={()=>{
+                        props.history.push({
+                            pathname: '/about',
+                            search: "team"
+                        })
+                    }}
+                    >Team</Button>
             </div>
         </div>
         
     </div>
 )
 
-export default about;
+export default withRouter(About);
