@@ -1,0 +1,18 @@
+.About{
+    height: 0px;
+    margin-top: 0;
+}
+
+.AboutSession{
+    margin-top: 0;
+    height: 100vh;
+    display: block;
+    background-color: yellow;
+    width: 100%;
+}
+
+.TeamSession{
+    height: 100vh;
+    display: block;
+    width: 100%;
+}

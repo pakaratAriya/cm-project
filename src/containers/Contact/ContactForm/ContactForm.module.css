@@ -30,16 +30,3 @@
 .textField::placeholder{
     color: #D5CC99;
 }
-
-.Button{
-    border: 2px #AA8900 solid;
-    width: 25%;
-    height: 18px;
-    padding: 10px 4%;
-    text-align: center;
-    border-radius: 5px;
-    margin: 20px 20px;
-    margin-bottom: 0;
-    display: inline-block;
-    margin-left: calc(37% + 10px);
-}

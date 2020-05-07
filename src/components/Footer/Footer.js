@@ -1,4 +1,5 @@
 import React from 'react'
+import Button from '../Button/Button'
 import classes from './Footer.module.css'
 import fonts from '../../globalCss/Fonts.module.css'
 
@@ -31,9 +32,17 @@ const footer = props => (
                 <p className={classes.Subtitle}>Subscribe to AdobeXD via Email</p>
                 <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
                 <input className={classes.oneLineInput} type="email" required placeholder="Email Address"/>
-                <div className={[classes.Button, fonts.Caption].join(' ')} onClick={props.click}>
+                {/* <div className={[classes.Button, fonts.Caption].join(' ')} onClick={props.click}>
                     Subscribe
-                </div>
+                </div> */}
+                <Button
+                    myClass={["smallBtn", "goldBorder", "transparentBackground", "goldText"]}
+                    style={{
+                        marginLeft: "20px",
+                        height: "20px",
+                        lineHeight: "20px"
+                    }}
+                >Subscribe</Button>
                 <span className={[classes.Trademark, fonts.Caption].join(' ')}>© AdobeXD Kit 2017</span>
             </div>
         </div>

@@ -1,32 +1,38 @@
 .Button{
-    width: 10%;
-    border: 1px #AA8900 solid;
-    color: #AA8900;
-    font-size: 1.2vw;
+    cursor: pointer;
+}
+
+.SmallButton{
+    width: 90px;
+    height: 30px;
     border-radius: 5px;
-}
-
-.GoldWhiteBtn{
-    width: 10%;
-    border: 1px #AA8900 solid;
-    color: white;
-    font-size: 0.8vw;
-    padding: 10px 4%;
+    line-height: 30px;
     text-align: center;
-    border-radius: 2px;
+    font-weight: 400;
     display: inline-block;
-    font-family: 'Montserrat';
 }
 
-@media screen and (max-width: 800px){
-    .GoldWhiteBtn{
-        width: 10%;
-        padding: 5px 2%;
-    }
+.MediumButton{
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: 600;
+    border-radius: 5px;
+    margin: 60px 20px;
+    margin-bottom: 0;
+    display: inline-block;
 }
 
-@media screen and (max-width: 500px){
-    .GoldWhiteBtn{
-        width: 10%;
-    }
+.GoldBackground{
+    background-color: #AA8900;
+}
+
+.TransparentBackground{
+    border: 2px #AA8900 solid;
+}
+
+.GoldBorder{
+    border: 2px #AA8900 solid;
 }

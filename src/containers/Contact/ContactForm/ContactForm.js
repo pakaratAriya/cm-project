@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import Button from '../../../components/Button/Button'
 import classes from './ContactForm.module.css'
 import fonts from '../../../globalCss/Fonts.module.css'
 
@@ -14,9 +15,12 @@ class ContactForm extends Component {
                 <input className={[classes.oneLineInput, fonts.Gold].join(' ')} type="email" required placeholder="name@email.com"/>
                 <p className={classes.Label}>Message</p>
                 <textarea className={[classes.textField, fonts.Gold].join(' ')} required placeholder="Write here"/>
-                <div className={[classes.Button, fonts.Caption].join(' ')} onClick={this.props.click}>
-                    Send
-                </div>
+                <Button
+                    myClass={["mediumBtn", "goldBorder", "transparentBackground", "goldText"]}
+                    style={{
+                        marginLeft: "calc(37% + 10px)",
+                    }}
+                >Send</Button>
             </div>
         )
     }
