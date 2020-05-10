@@ -7,18 +7,37 @@ class ContactForm extends Component {
     render(){
         return(
             <div className={[classes.ContactForm, fonts.Subtitle, fonts.Gold].join(' ')}>
-                <p className={classes.Label}>Name</p>
-                <input className={[classes.oneLineInput, fonts.Gold].join(' ')} placeholder="John Doe" required/>
-                <p className={classes.Label}>How can I help</p>
-                <input className={[classes.oneLineInput, fonts.Gold].join(' ')} required placeholder="Need"/>
-                <p className={classes.Label}>E-mail</p>
-                <input className={[classes.oneLineInput, fonts.Gold].join(' ')} type="email" required placeholder="name@email.com"/>
-                <p className={classes.Label}>Message</p>
-                <textarea className={[classes.textField, fonts.Gold].join(' ')} required placeholder="Write here"/>
+                <div className={classes.FirstName}>
+                    <p className={[classes.Label, fonts.Captions].join(' ')}>First Name*</p>
+                    <input className={[classes.oneLineInput, fonts.Gold].join(' ')} placeholder="" required/>
+                </div>
+                <div className={classes.LastName}>
+                    <p className={[classes.Label, fonts.Captions].join(' ')}>Last Name*</p>
+                    <input className={[classes.oneLineInput, fonts.Gold].join(' ')} placeholder="" required/>
+                </div>
+                <div className={classes.Email}>
+                    <p className={[classes.Label, fonts.Captions].join(' ')}>Email Address*</p>
+                    <input className={[classes.oneLineInput, fonts.Gold].join(' ')} placeholder="" required/>
+                </div>
+                <div className={classes.Subject}>
+                    <p className={[classes.Label, fonts.Captions].join(' ')}>Subject*</p>
+                    <input className={[classes.oneLineInput, fonts.Gold].join(' ')} placeholder="" required/>
+                </div>
+                <div className={classes.Phone}>
+                    <p className={[classes.Label, fonts.Captions].join(' ')}>Phone*</p>
+                    <input className={[classes.oneLineInput, fonts.Gold].join(' ')} placeholder="###-###-####" required/>
+                </div>
+                <div className={classes.Message}>
+                    <p className={[classes.Label, fonts.Captions].join(' ')}>Message*</p>
+                    <textarea className={[classes.textField, fonts.Gold].join(' ')} placeholder="" required/>
+                </div>
                 <Button
-                    myClass={["mediumBtn", "goldBorder", "transparentBackground", "goldText"]}
+                    myClass={["smallBtn", "goldBorder", "transparentBackground", "whiteText"]}
                     style={{
-                        marginLeft: "calc(37% + 10px)",
+                        gridColumn: "11/13",
+                        marginTop: "20px",
+                        marginRight: "10px",
+                        justifySelf: "end"
                     }}
                 >Send</Button>
             </div>

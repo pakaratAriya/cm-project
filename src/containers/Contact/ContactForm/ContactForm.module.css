@@ -1,16 +1,55 @@
 .ContactForm{
-    grid-column: 3 / 4;
-    margin-top: 15vh;
+    width: 80%;
+    margin-left: 10%;
+    display: grid;
+    grid-template-columns: repeat(12, 8.33%);
+    margin-top: 50px;
 }
+
+.FormLine{
+    display: grid;
+    grid-template-columns: repeat(12, 8.33%);
+}
+
+.FirstName{
+    grid-column: 1 / 7;
+}
+
+.LastName{
+    grid-column: 7 / 13;
+}
+
+.Email{
+    grid-column: 1 / 5;
+}
+
+.Subject{
+    grid-column: 5 / 9;
+}
+
+.Phone{
+    grid-column: 9/13;
+}
+
+.Message{
+    grid-column: 1/13;
+}
+
+
 
 .Label{
     margin: 5px 0;
+    text-align: left;
 }
 
 .oneLineInput{
-    width: 70%;
-    border-radius: 10px;
+    width: calc(100% - 10px);
+    background-color: transparent;
+    border: 2px solid #AA8900;
     height: 35px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
     padding-left: 10px;
 }
 
@@ -20,11 +59,14 @@
 }
 
 .textField{
-    width: 70%;
-    border-radius: 10px;
+    width: calc(100% - 10px);
+    background-color: transparent;
+    border: 2px solid #AA8900;
     height: 120px;
+    margin-right: 10px;
     padding-left: 10px;
     padding-top: 10px;
+    box-sizing: border-box;
 }
 
 .textField::placeholder{

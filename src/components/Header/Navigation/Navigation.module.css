@@ -1,8 +1,8 @@
 .Navigation{
     grid-column: 11/20;
     color: white;
-    align-self: end;
-    font-size: 16pt;
+    align-self: center;
+    grid-column: 2/3;
 }
 
 .navLink{

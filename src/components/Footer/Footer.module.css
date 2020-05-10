@@ -1,17 +1,25 @@
 
 
 .Footer{
-    display: grid;
     background-color: black;
-    height: 30vh;
-    grid-template-columns: 10% 80% 10%;
+    text-align: center;
+    padding-top: 60px;
+    height: 50vh;
+    
+}
+
+.Footer p{
+    margin: 0;
+    padding-bottom: 40px;
+}
+
+.Footer a{
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .GridWrapper{
-    margin-top: 5vh;
-    grid-column: 2 / 3;
-    display: grid;
-    grid-template-columns: repeat(12, 8% auto);
+    
     
 }
 

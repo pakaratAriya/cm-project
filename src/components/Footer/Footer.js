@@ -5,8 +5,8 @@ import fonts from '../../globalCss/Fonts.module.css'
 
 const footer = props => (
     <div className={classes.Footer}>
-        <div className={[classes.GridWrapper, fonts.Caption, fonts.Gold].join(' ')}>
-            <div className={classes.ContactUs}>
+        <div className={[classes.GridWrapper, fonts.Caption, fonts.White].join(' ')}>
+            {/* <div className={classes.ContactUs}>
                 <p className={classes.Subtitle}>CONTACT US</p>
                 <p>+44 345 678 903</p>
                 <p>adobexd@mail.com</p>
@@ -32,9 +32,6 @@ const footer = props => (
                 <p className={classes.Subtitle}>Subscribe to AdobeXD via Email</p>
                 <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
                 <input className={classes.oneLineInput} type="email" required placeholder="Email Address"/>
-                {/* <div className={[classes.Button, fonts.Caption].join(' ')} onClick={props.click}>
-                    Subscribe
-                </div> */}
                 <Button
                     myClass={["smallBtn", "goldBorder", "transparentBackground", "goldText"]}
                     style={{
@@ -44,7 +41,12 @@ const footer = props => (
                     }}
                 >Subscribe</Button>
                 <span className={[classes.Trademark, fonts.Caption].join(' ')}>© AdobeXD Kit 2017</span>
-            </div>
+            </div> */}
+            <p className={fonts.H2}>ANDREA CASTRO</p>
+            <p className={fonts.Caption}>9378 WILSHIRE BLVD #200, LANGLEY BC,CA90212</p>
+            <p className={fonts.Subtitle}><a>YOUTUBE</a>|<a>FACEBOOK</a>|<a>INSTAGRAM</a>|<a>TWITTER</a></p>
+            <p className={fonts.Caption}>COPYRIIGHT &copy; 2020 CASTRO MARKETING. ALL RIGHTS RESERVED. SITEMAP | 
+                REAL ESTATE WEBSITE DESIGN BY TEAM<br/>CUSTOM WEBSITE BY TEAM</p>
         </div>
     </div>
 )
