@@ -1,44 +1,36 @@
-.About{
-    height: 100vh;
-    display: grid;
-    grid-template-columns: 50% 50%;
+.About {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 40% 60%;
 }
 
-.AboutPhoto{
-    grid-column: 1 / 2;
-    background-image: url('/images/aboutPhoto.jpg');
-    background-size: cover;
+.AboutPhoto {
+  grid-column: 1 / 2;
+  background-image: url("/images/aboutPhoto.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 80%;
+  justify-self: start;
+  align-self: center;
 }
 
-.AboutSession{
-    background-color: black;
-    padding: 10% 40px;
-
+.AboutSession {
+  background-color: white;
+  padding: 10% 40px;
 }
 
-.AboutTitle{
-    width: 80%;
-    text-align: center;
+.AboutTitle {
+  /* width: 80%; */
+  text-align: center;
+  font-size: 49px;
 }
 
-.AboutMessage{
-    width: 80%;
-
+.AboutMessage {
+  /* width: 80%; */
+  font-size: 17px;
+  margin-top: 20px;
 }
 
-.AboutButtons{
-    width: 80%;
-}
-
-.Button{
-    border: 2px #AA8900 solid;
-    width: 25%;
-    height: 18px;
-    padding: 10px 4%;
-    text-align: center;
-    border-radius: 5px;
-    margin: 60px 20px;
-    margin-bottom: 0;
-    display: inline-block;
-
+.AboutButtons {
+  /* width: 80%; */
 }

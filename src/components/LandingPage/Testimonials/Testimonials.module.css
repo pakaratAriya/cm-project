@@ -1,0 +1,60 @@
+.Testimonials {
+  height: 50vh;
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  grid-template-rows: 20% 60% 20%;
+}
+
+.Title {
+  grid-row: 1/2;
+  grid-column: 2/3;
+  justify-self: center;
+  align-self: start;
+}
+
+.ArrowLeft {
+  content: url("/images/arrowLeft.png");
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  grid-row: 2/3;
+  grid-column: 1/2;
+  justify-self: end;
+  align-self: center;
+}
+
+.Info {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  grid-row: 2/3;
+  grid-column: 2/3;
+  justify-self: center;
+  align-self: center;
+}
+
+.ClientsInfo {
+  width: 70%;
+}
+
+.ArrowRight {
+  content: url("/images/arrowRight.png");
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  grid-row: 2/3;
+  grid-column: 3/4;
+  justify-self: start;
+  align-self: center;
+}
+
+.Image {
+  width: 136px;
+  height: 136px;
+  margin: auto;
+  border-radius: 50%;
+  box-shadow: -6px 6px 6px rgba(0, 0, 0, 0.23);
+  -moz-box-shadow: -6px 6px 6px rgba(0, 0, 0, 0.23);
+  -o-box-shadow: -6px 6px 6px rgba(0, 0, 0, 0.23);
+  -webkit-box-shadow: -6px 6px 6px rgba(0, 0, 0, 0.23);
+}

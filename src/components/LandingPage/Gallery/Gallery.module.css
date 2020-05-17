@@ -1,25 +1,45 @@
-.Gallery{
-    height: 100vh;
-    display: grid;
-    width: 100%;
-    overflow: scroll;
-    -webkit-user-select: none;
-    position: relative;
+.GalleryContainer {
+  display: grid;
+  width: 100%;
 }
 
-.Gallery::-webkit-scrollbar{
-    background: transparent;
-    height: 0;
-    width: 0;
-
+.Title {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
-.ListItem{
-    display: block;
-    padding-top: 80vh;
-    padding-left: 30px;
+.ListContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1em;
 }
 
-.ListItem > p{
-    margin: 2px;
+.ListItem {
+  display: block;
+  padding-top: 40vh;
+  padding-left: 30px;
+}
+
+.GalleryButton {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.Location,
+.Price {
+  /* hide the title by default */
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.ListItem:hover .Location {
+  opacity: 1;
+}
+.ListItem:hover .Price {
+  opacity: 1;
+}
+
+.ListItem > p {
+  margin: 2px;
 }
