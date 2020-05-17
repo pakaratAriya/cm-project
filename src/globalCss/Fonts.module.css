@@ -10,10 +10,23 @@
     font-weight: 600;
 }
 
+.Title{
+    text-align: center;
+    font-family: "Scada";
+    font-size: 49px;
+    color: rgba(17, 16, 21, 1);
+}
+
 .Subtitle{
     font-family: "Montserrat";
     font-size: 14pt;
     font-weight: 600;
+}
+
+.NavigationFont{
+    font-family: "Montserrat";
+    font-size: 24px;
+    color: white;
 }
 
 .Body{
@@ -36,4 +49,12 @@
 
 .Black{
     color: #000000;
+}
+
+.Logo{
+    font-family: 'Montserrat';
+    font-size: 73px;
+    font-weight: bold;
+    color: rgba(246, 246, 246, 1);
+    cursor: pointer;
 }

@@ -1,0 +1,13 @@
+.NavigationText{
+    margin: 20px;
+}
+
+.NavText{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+}
+
+.GreaterThanSign{
+    color: rgba(182, 159, 94, 1);
+}

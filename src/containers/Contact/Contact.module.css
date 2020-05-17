@@ -1,13 +1,36 @@
 .Contact{
-    height: 100vh;
-    background-color: black;
+    width: 1440px;
+    height: 800px;
+    background-image: url("/images/background_footer.png");
+    background-size: 100% 100%;
     text-align: center;
     padding-top: 50px;
     box-sizing: border-box;
 }
 
 .ContactInfo{
-    grid-column: 2 / 3;
-    padding-top: 12vh;
-    width: 80%;
+    height: 603px;
+    width: 935px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.ContactTitle{
+    height: 62px;
+    width: 504px;
+    font-family: 'Scada';
+    font-size: 50px;
+    color: rgba(246, 246, 246, 1);
+    text-align: center;
+    margin: auto;
+}
+
+.Caption{
+    height: 14px;
+    font-family: 'Roboto';
+    font-size: 12px;
+    color: rgba(182, 159, 94, 1);
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
 }

@@ -1,0 +1,93 @@
+.HouseInfo{
+    background-color: #F6F6F6;
+    width: 1440px;
+    margin: auto;
+}
+
+.BigImage{
+    margin-top: 50px;
+    width: 1440px;
+    height: 600px;
+    background-image: url("/images/PageInfoImages/gallery-0.png");
+    background-size: 100% 100%;
+    transition: 0.5s;
+}
+
+.SmallImageWrapper{
+    margin-top: 40px;
+    margin-left: 130px;
+}
+
+.SmallImage{
+    width: 150px;
+    height: 100px;
+    background-size: 100% 100%;
+    margin: 10px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.ContentWrapper{
+    height: 254px;
+    width: 767px;
+    font-family: 'Montserrat';
+    font-size: 17px;
+    font-weight: 500;
+    color: rgba(17, 16, 21, 1);
+    margin-left: 140px;
+    margin-top: 40px;
+    display: inline-block;
+}
+
+.PriceInfo{
+    margin-left: 20px;
+    height: 254px;
+    width: 373px;
+    display: inline-block;
+    margin-top: 40px;
+    vertical-align: top;
+}
+
+.Price{
+    height: 57px;
+    font-family: 'Scada';
+    font-size: 48px;
+    color: rgba(17, 16, 21, 1);
+    margin-bottom: 7px;
+    
+}
+
+.PropsHeader{
+    text-align: start;
+    width: 160.76px;
+    height: 30.97px;
+}
+
+.HouseDetail{
+    height: 737px;
+    width: 1160px;
+    margin-top: 50px;
+    margin-left: 140px;
+    background-image: url("/images/PageInfoImages/genral_info_table.png");
+    background-size: 100% 100%;
+}
+
+.UpdateDateTxt{
+    height: 15px;
+    width: 278px;
+    font-family: 'Scada';
+    font-size: 12px;
+    margin-top: 30px;
+    margin-left: 1017px;
+    text-align: right;
+}
+
+.BtmTxt{
+    height: 48px;
+    width: 1170px;
+    font-family: 'Scada';
+    font-size: 10px;
+    color: rgba(17, 16, 21, 1);
+    margin-top: 40px;
+    margin-left: 135px;
+}

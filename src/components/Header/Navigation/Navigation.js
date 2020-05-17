@@ -1,12 +1,12 @@
 import React from 'react'
-import fonts from '../../../../globalCss/Fonts.module.css'
-import Button from '../../../Button/Button'
+import fonts from '../../../globalCss/Fonts.module.css'
+import Button from '../../Button/Button'
 import classes from './Navigation.module.css'
 
 const navigation = props => {
-    const navClass = [classes.navLink, fonts.Caption].join(' ')
+    const navClass = [classes.navLink].join(' ')
     return(
-    <div className={[classes.Navigation, fonts.White].join(' ')}>
+    <div className={[classes.Navigation, fonts.NavigationFont].join(' ')}>
         <span className={navClass}>Active</span>
         <span className={navClass}>MLS Search</span>
         <span className={navClass}>About</span>

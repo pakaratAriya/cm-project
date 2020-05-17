@@ -42,10 +42,10 @@ const footer = props => (
                 >Subscribe</Button>
                 <span className={[classes.Trademark, fonts.Caption].join(' ')}>© AdobeXD Kit 2017</span>
             </div> */}
-            <p className={fonts.H2}>ANDREA CASTRO</p>
-            <p className={fonts.Caption}>9378 WILSHIRE BLVD #200, LANGLEY BC,CA90212</p>
-            <p className={fonts.Subtitle}><a>YOUTUBE</a>|<a>FACEBOOK</a>|<a>INSTAGRAM</a>|<a>TWITTER</a></p>
-            <p className={fonts.Caption}>COPYRIIGHT &copy; 2020 CASTRO MARKETING. ALL RIGHTS RESERVED. SITEMAP | 
+            <p className={classes.FooterName}>ANDREA CASTRO</p>
+            <p className={classes.FooterAddress}>9378 WILSHIRE BLVD #200, LANGLEY BC,CA90212</p>
+            <p className={classes.FooterLink}><a>YOUTUBE</a>|<a>FACEBOOK</a>|<a>INSTAGRAM</a>|<a>TWITTER</a></p>
+            <p className={classes.FooterCopyRight}>COPYRIIGHT &copy; 2020 CASTRO MARKETING. ALL RIGHTS RESERVED. SITEMAP | 
                 REAL ESTATE WEBSITE DESIGN BY TEAM<br/>CUSTOM WEBSITE BY TEAM</p>
         </div>
     </div>

@@ -1,74 +1,53 @@
-.ContactForm{
-    width: 80%;
-    margin-left: 10%;
-    display: grid;
-    grid-template-columns: repeat(12, 8.33%);
-    margin-top: 50px;
-}
-
-.FormLine{
-    display: grid;
-    grid-template-columns: repeat(12, 8.33%);
-}
-
-.FirstName{
-    grid-column: 1 / 7;
-}
-
-.LastName{
-    grid-column: 7 / 13;
-}
-
-.Email{
-    grid-column: 1 / 5;
-}
-
-.Subject{
-    grid-column: 5 / 9;
-}
-
-.Phone{
-    grid-column: 9/13;
-}
-
-.Message{
-    grid-column: 1/13;
-}
-
-
-
 .Label{
-    margin: 5px 0;
-    text-align: left;
+    font-family: 'Montserrat';
+    font-size: 17px;
+    font-weight: 500;
+    color: rgba(182, 159, 94, 1);
+    height: 21px;
+    text-align: start;
 }
 
-.oneLineInput{
-    width: calc(100% - 10px);
+.NameInput{
+    height: 48px;
+    width: 456px;
+    border: 4px solid rgba(182, 159, 94, 1);
+    margin-top: 11px;
     background-color: transparent;
-    border: 2px solid #AA8900;
-    height: 35px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    box-sizing: border-box;
-    padding-left: 10px;
 }
 
-.oneLineInput::placeholder{
+.NameWrapper{
+    margin-top: 30px;
+    width: 50%;
+    display: inline-block;
+}
+
+.ContactInput{
+    height: 48px;
+    width: 301px;
+    border: 4px solid rgba(182, 159, 94, 1);
+    background-color: transparent;
+    margin-top: 11px;
+    margin-left: 0;
+}
+
+.ContactInputWrapper{
+    margin-top: 30px;
+    width: 33.33%;
+    display: inline-block;
     
-    color: #D5CC99;
 }
 
-.textField{
-    width: calc(100% - 10px);
+.MessageWrapper{
+    margin-top: 30px;
+    width: 100%;
+    display: inline-block;
+}
+
+.MessageInput{
+    height: 169px;
+    width: 935px;
+    border: 4px solid rgba(182, 159, 94, 1);
     background-color: transparent;
-    border: 2px solid #AA8900;
-    height: 120px;
-    margin-right: 10px;
-    padding-left: 10px;
-    padding-top: 10px;
+    margin-top: 11px;
     box-sizing: border-box;
-}
-
-.textField::placeholder{
-    color: #D5CC99;
 }

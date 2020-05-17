@@ -1,12 +1,14 @@
 .Navigation{
-    grid-column: 11/20;
     color: white;
-    align-self: center;
-    grid-column: 2/3;
+    display: inline-block;
+    margin-right: 20px;
+    float: right;
+    line-height: 130px;
 }
 
 .navLink{
-    margin: 0 10px;
+    margin-right: 20px;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 500px){

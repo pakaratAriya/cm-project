@@ -7,8 +7,8 @@ import { NavLink} from 'react-router-dom'
 const header = props => {
     return (
         <div className={classes.Header}>
-            <div className={[classes.Title,fonts.White].join(' ')}>
-                <p className={fonts.H2}>CM</p>
+            <div className={[classes.Title, fonts.Logo].join(' ')}>
+                CM
             </div>
             <Navigation/>
         </div>

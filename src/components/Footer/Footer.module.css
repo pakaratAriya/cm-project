@@ -4,9 +4,50 @@
     background-color: black;
     text-align: center;
     padding-top: 60px;
-    height: 50vh;
+    width: 1440px;
+    height: 320px;
+    color: white;
     
 }
+
+.FooterName{
+    height: 44px;
+    width: 100%;
+    font-family: 'Scada';
+    font-size: 42px;
+    color: rgba(246, 246, 246, 1);
+    text-align: center;
+}
+
+.FooterAddress{
+    height: 24px;
+    width: 100%;
+    font-family: 'Scada';
+    font-size: 23px;
+    color: rgba(246, 246, 246, 1);
+    text-align: center;
+}
+
+.FooterLink{
+    height: 31px;
+    width: 100%;
+    font-family: 'Scada';
+    font-size: 29px;
+    color: rgba(246, 246, 246, 1);
+    text-align: center;    
+}
+
+.FooterCopyRight{
+    height: 12px;
+    width: 100%;
+    font-family: 'Scada';
+    font-size: 10px;
+    color: rgba(246, 246, 246, 1);
+    text-align: center;
+}
+
+
+/* old one */
 
 .Footer p{
     margin: 0;
@@ -79,3 +120,4 @@ p {
     vertical-align: bottom;
     
 }
+

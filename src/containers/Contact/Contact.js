@@ -10,11 +10,12 @@ class Contact extends Component{
     render(){
         return(
             <div className={[classes.Contact, fonts.White].join(' ')}>
-                <p className={fonts.H2}>CONNECT WITH ANDREA</p>
-                <p className={[fonts.Caption, fonts.Gold].join(' ')}>
-                    {"to inquire about a property or press event, please fill out the form below.".toUpperCase()}
-                </p>
-                <ContactForm/>
+                <div className={classes.ContactInfo}>
+                    <p className={classes.ContactTitle}>CONNECT WITH ANDREA</p>
+                    <p className={classes.Caption}>TO INQUIRE ABOUT A PROPERTY OR PRESS EVENT, PLEASE FILL OUT THE FORM BELOW.</p>
+                    <ContactForm/>
+                </div>
+                
             </div>
         )
     }
