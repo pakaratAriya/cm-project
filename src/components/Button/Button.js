@@ -1,3 +1,7 @@
+import React from 'react'
+import classes from './Button.module.css'
+import fonts from '../../globalCss/Fonts.module.css'
+
 const button = (props) => {
   let myClass = [];
   myClass.push(classes.Button);

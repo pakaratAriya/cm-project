@@ -1,0 +1,39 @@
+.Photo{
+    height: 751px;
+    width: 1160px;
+    margin-bottom: 20px;
+    background-size: 100% 100%;
+    margin: auto;
+}
+
+.GalleryWrapper{
+    margin-top: 50px;
+}
+
+.MapTypeWrapper{
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+
+
+.TypeText{
+    margin: 0 15px;
+    font-family: 'Scada';
+    font-size: 31px;
+    color: black;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+
+}
+
+.SelectedType{
+
+    color: rgba(182, 159, 94, 1);
+
+
+}

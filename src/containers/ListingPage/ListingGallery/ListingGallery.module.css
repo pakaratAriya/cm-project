@@ -1,0 +1,9 @@
+.ListingGallery{
+    width: calc(100% - 40px);
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,33.33%);
+    grid-gap: auto;
+    margin-bottom: 50px;
+    overflow: hidden;
+}

@@ -1,0 +1,20 @@
+.UpdateDateTxt{
+    height: 15px;
+    width: 278px;
+    font-family: 'Scada';
+    font-size: 12px;
+    margin-top: 30px;
+    margin-left: 1017px;
+    text-align: right;
+}
+
+.BtmTxt{
+    height: 48px;
+    width: 1170px;
+    font-family: 'Scada';
+    font-size: 10px;
+    color: rgba(17, 16, 21, 1);
+    margin-top: 40px;
+    margin-left: 135px;
+    margin-bottom: 50px;
+}

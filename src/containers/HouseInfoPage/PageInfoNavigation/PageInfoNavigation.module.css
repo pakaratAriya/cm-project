@@ -14,3 +14,14 @@
     border-bottom: rgba(170, 137, 0, 1) solid 4px;
     margin: 0 10px;
 }
+
+.Active{
+    cursor: pointer;
+    font-size: 31px;
+    color: rgba(17, 16, 21, 1);
+    text-align: center;
+    display: inline-block;
+    height: 48px;
+    width: 289px;
+    margin: 0 10px;
+}

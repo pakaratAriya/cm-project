@@ -17,7 +17,7 @@ const navigationText = props => {
                 return (
                     n !== "" ?
                     <span key={index}>
-                        {index !== 0 && index !== (n.length - 1) ? <span className={classes.GreaterThanSign}>&nbsp;&nbsp;>&nbsp;&nbsp;</span> : null}
+                        {index !== 0? <span className={classes.GreaterThanSign}>&nbsp;&nbsp;>&nbsp;&nbsp;</span> : null}
                         <Link className={classes.NavText}  to={myPath}>{n.charAt(0).toUpperCase() + n.slice(1)}</Link></span>
                         : null
                 )

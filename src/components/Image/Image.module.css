@@ -1,0 +1,40 @@
+.Image{
+    height: 340px;
+    width: 453px;
+    background-color: cyan;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 20px;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+
+.Gradient{
+    height: 188px;
+    width: 453px;
+    background-image: linear-gradient( rgba(0,0,0,0),rgba(0,0,0,0.5));
+    position: absolute;
+    bottom: 0;
+
+}
+
+.PlaceName{
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(246, 246, 246, 1);
+    position: absolute;
+    bottom: 54px;
+    margin: 0 20px;
+}
+
+.Price{
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(246, 246, 246, 1);
+    position: absolute;
+    bottom: 0px;
+    margin: 20px;
+}

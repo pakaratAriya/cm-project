@@ -1,12 +1,12 @@
 .HouseInfo{
     background-color: #F6F6F6;
-    width: 1440px;
+    width: 100%;
     margin: auto;
 }
 
 .BigImage{
     margin-top: 50px;
-    width: 1440px;
+    width: 100%;
     height: 600px;
     background-image: url("/images/PageInfoImages/gallery-0.png");
     background-size: 100% 100%;
@@ -72,22 +72,3 @@
     background-size: 100% 100%;
 }
 
-.UpdateDateTxt{
-    height: 15px;
-    width: 278px;
-    font-family: 'Scada';
-    font-size: 12px;
-    margin-top: 30px;
-    margin-left: 1017px;
-    text-align: right;
-}
-
-.BtmTxt{
-    height: 48px;
-    width: 1170px;
-    font-family: 'Scada';
-    font-size: 10px;
-    color: rgba(17, 16, 21, 1);
-    margin-top: 40px;
-    margin-left: 135px;
-}

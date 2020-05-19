@@ -3,10 +3,10 @@ import classes from './About.module.css'
 
 class About extends Component{
 
-    componentDidMount(){
-        let findingTag = this.props.location.search.slice(1)
-        document.getElementById(findingTag).scrollIntoView()
-    }
+    // componentDidMount(){
+    //     let findingTag = this.props.location.search.slice(1)
+    //     document.getElementById(findingTag).scrollIntoView()
+    // }
 
     render(){
         return (

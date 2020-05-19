@@ -9,7 +9,7 @@ class Contact extends Component{
 
     render(){
         return(
-            <div className={[classes.Contact, fonts.White].join(' ')}>
+            <div className={[classes.Contact, fonts.White].join(' ')} id="Contact">
                 <div className={classes.ContactInfo}>
                     <p className={classes.ContactTitle}>CONNECT WITH ANDREA</p>
                     <p className={classes.Caption}>TO INQUIRE ABOUT A PROPERTY OR PRESS EVENT, PLEASE FILL OUT THE FORM BELOW.</p>

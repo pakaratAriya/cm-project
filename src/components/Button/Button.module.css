@@ -2,7 +2,6 @@
   cursor: pointer;
 }
 
-<<<<<<< HEAD
 .SmallButton{
     width: 130px;
     height: 40px;
@@ -12,16 +11,6 @@
     font-weight: 600;
     font-size: 14px;
     display: inline-block;
-=======
-.SmallButton {
-  width: 90px;
-  height: 30px;
-  border-radius: 5px;
-  line-height: 30px;
-  text-align: center;
-  font-weight: 400;
-  display: inline-block;
->>>>>>> 4887205dbebc3d73f9ee449ce40c4426a6bb3913
 }
 
 .MediumButton {
