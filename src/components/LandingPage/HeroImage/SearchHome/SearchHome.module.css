@@ -1,4 +1,18 @@
-.SearchHome{
-    margin: auto;
-    margin-left: 10%;
+.SearchWrapper {
+  width: 60%;
+  margin-left: 50px;
+}
+
+.SearchText {
+  margin: 0;
+}
+
+.SearchInput {
+  margin-top: 30px;
+  height: 40px;
+  width: 40%;
+  border-radius: 5px;
+  display: inline-block;
+  border-width: 1px;
+  padding-left: 5px;
 }
