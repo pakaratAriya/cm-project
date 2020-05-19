@@ -1,0 +1,18 @@
+.Team {
+  display: grid;
+  width: 100%;
+  height: 100vh;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.TeamContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1em;
+}
+
+.TeamItem {
+  height: 50vh;
+  width: 100%;
+}
