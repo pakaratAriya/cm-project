@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { withRouter } from "react-router-dom";
 import classes from "./Gallery.module.css";
 import fonts from "../../../globalCss/Fonts.module.css";
 import Button from "../../Button/Button";
@@ -31,7 +32,7 @@ const galleryPrice = [
 const gallery = (props) => {
   return (
     <div className={classes.GalleryContainer}>
-      <p className={[classes.Title, fonts.H2, fonts.Black].join(" ")}>
+      <p className={[classes.Title, fonts.Title, fonts.Black].join(" ")}>
         FEATURED LISTINGS
       </p>
 
@@ -43,7 +44,7 @@ const gallery = (props) => {
               " "
             )}
             style={{
-              backgroundImage: "url('/images/" + g + "')",
+              backgroundImage: "url('/images/IndexGalleryImages/" + g + "')",
               backgroundSize: "cover",
             }}
           >
@@ -63,8 +64,8 @@ const gallery = (props) => {
           ]}
           click={() => {
             props.history.push({
-              pathname: "/#",
-              search: "#",
+              pathname: "/listing",
+              search: "listing",
             });
           }}
         >
@@ -75,4 +76,4 @@ const gallery = (props) => {
   );
 };
 
-export default gallery;
+export default withRouter(gallery);
