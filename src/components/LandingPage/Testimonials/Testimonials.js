@@ -58,7 +58,7 @@ class Testimonials extends React.Component {
   render() {
     return (
       <div className={classes.Testimonials}>
-        <p className={[classes.Title, fonts.H2, fonts.Black].join(" ")}>
+        <p className={[classes.Title, fonts.Title, fonts.Black].join(" ")}>
           TESTIMONIALS
         </p>
 
@@ -72,7 +72,9 @@ class Testimonials extends React.Component {
             className={classes.Image}
             style={{
               backgroundImage:
-                "url('/images/" + quotes[this.state.currentIndex].image + "')",
+                "url('/images/Clients/" +
+                quotes[this.state.currentIndex].image +
+                "')",
               backgroundSize: "cover",
             }}
           ></div>
