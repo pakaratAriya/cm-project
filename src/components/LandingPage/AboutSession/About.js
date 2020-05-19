@@ -8,7 +8,7 @@ const About = (props) => (
   <div className={classes.About}>
     <div className={classes.AboutPhoto}></div>
     <div className={classes.AboutSession}>
-      <p className={[classes.AboutTitle, fonts.H2, fonts.Black].join(" ")}>
+      <p className={[classes.AboutTitle, fonts.Title, fonts.Black].join(" ")}>
         Andrea Castro
       </p>
       <p
