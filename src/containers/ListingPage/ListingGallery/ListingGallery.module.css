@@ -6,4 +6,5 @@
     grid-gap: auto;
     margin-bottom: 50px;
     overflow: hidden;
+    transition: 0.5s;
 }
