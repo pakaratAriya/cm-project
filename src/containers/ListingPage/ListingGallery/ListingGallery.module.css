@@ -8,3 +8,11 @@
     overflow: hidden;
     transition: 0.5s;
 }
+
+.NoResultText{
+    font-size: 30px;
+    font-weight: 600;
+    grid-column: 1 / span 3;
+    text-align: center;
+    width: 100%;
+}

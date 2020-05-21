@@ -12,19 +12,20 @@ class HousePhotos extends Component{
     state = {
         gallery: [
             "gallery-13.png",
-            "gallery-1.png",
-            "gallery-2.png",
-            "gallery-3.png",
-            "gallery-4.png",
-            "gallery-5.png",
-            "gallery-6.png",
-            "gallery-7.png",
-            "gallery-8.png",
-            "gallery-9.png",
-            "gallery-10.png",
-            "gallery-11.png",
-            "gallery-12.png",
-            "gallery-14.png",
+            "gallery-13.jpg",
+            "gallery-1.jpg",
+            "gallery-2.jpg",
+            "gallery-3.jpg",
+            "gallery-4.jpg",
+            "gallery-5.jpg",
+            "gallery-6.jpg",
+            "gallery-7.jpg",
+            "gallery-8.jpg",
+            "gallery-9.jpg",
+            "gallery-10.jpg",
+            "gallery-11.jpg",
+            "gallery-12.jpg",
+            
         ]
     }
     render(){
@@ -40,7 +41,7 @@ class HousePhotos extends Component{
                         <div className={classes.Photo}
                         key={index}
                         style={{
-                            backgroundImage: "url('/images/PageInfoImages/Photos/" + imgName + "')"
+                            backgroundImage: "url('/images/PageInfoImages/HousePhotos/" + imgName + "')"
                         }}>
 
                     </div>

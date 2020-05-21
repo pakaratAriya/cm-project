@@ -1,6 +1,11 @@
 const imagePlaceholder = [
     {
         place: "Vancouver BC",
+        price: 2500000,
+        url: "gallery-0"
+    },
+    {
+        place: "Vancouver BC",
         price: 1500000,
         url: "gallery-1"
     },
@@ -60,9 +65,19 @@ const imagePlaceholder = [
         url: "gallery-12"
     },
     {
-        place: "Vancouver BC",
+        place: "North Vancouver BC",
         price: 2500000,
         url: "gallery-13"
+    },
+    {
+        place: "Burnaby BC",
+        price: 2500000,
+        url: "gallery-14"
+    },
+    {
+        place: "North Vancouver BC",
+        price: 4500000,
+        url: "gallery-15"
     },
 ]
 
