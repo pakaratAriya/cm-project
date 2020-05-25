@@ -65,16 +65,16 @@ class Testimonials extends React.Component {
         <div
           className={classes.ArrowLeft}
           onClick={() => this.previousSlide()}
+          style={{
+            content: `url("${process.env.PUBLIC_URL}/images/arrowLeft.png")`,
+          }}
         ></div>
 
         <div className={classes.Info}>
           <div
             className={classes.Image}
             style={{
-              backgroundImage:
-                "url('/images/Clients/" +
-                quotes[this.state.currentIndex].image +
-                "')",
+              backgroundImage: `url('${process.env.PUBLIC_URL}/images/Clients/${quotes[this.state.currentIndex].image}')`,
               backgroundSize: "cover",
             }}
           ></div>
@@ -93,6 +93,9 @@ class Testimonials extends React.Component {
         <div
           className={classes.ArrowRight}
           onClick={() => this.nextSlide()}
+          style={{
+            content: `url("${process.env.PUBLIC_URL}/images/arrowRight.png")`,
+          }}
         ></div>
       </div>
     );

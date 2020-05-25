@@ -6,7 +6,10 @@ import fonts from "../../../globalCss/Fonts.module.css";
 
 const About = (props) => (
   <div className={classes.About}>
-    <div className={classes.AboutPhoto}></div>
+    <div className={classes.AboutPhoto}
+      style={{
+        backgroundImage: `url('${process.env.PUBLIC_URL}/images/aboutPhoto.jpg')`
+      }}></div>
     <div className={classes.AboutSession}>
       <p className={[classes.AboutTitle, fonts.Title, fonts.Black].join(" ")}>
         Andrea Castro

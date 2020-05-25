@@ -46,8 +46,7 @@ const team = (props) => {
               " "
             )}
             style={{
-              backgroundImage:
-                "url('/images/CastroTeam/" + teamMember[index].image + "')",
+              backgroundImage: `url('${process.env.PUBLIC_URL}/images/CastroTeam/${teamMember[index].image}')`,
               backgroundSize: "cover",
             }}
           >

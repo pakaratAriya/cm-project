@@ -41,7 +41,7 @@ class HousePhotos extends Component{
                         <div className={classes.Photo}
                         key={index}
                         style={{
-                            backgroundImage: "url('/images/PageInfoImages/HousePhotos/" + imgName + "')"
+                            backgroundImage: `url('${process.env.PUBLIC_URL}/images/PageInfoImages/HousePhotos/${imgName}')`
                         }}>
 
                     </div>

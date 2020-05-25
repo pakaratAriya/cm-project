@@ -29,11 +29,12 @@ class HouseMaps extends Component{
                 <PageInfoNavigation activeIndex={2}/>
                 <div className={classes.GalleryWrapper}>
                 {this.state.gallery.map((imgName, index)=>{
+                    console.log(imgName)
                     return (
                         <div className={classes.Photo}
                         key={index}
                         style={{
-                            backgroundImage: "url('/images/PageInfoImages/Maps/" + imgName + "')"
+                            backgroundImage: `url('${process.env.PUBLIC_URL}/images/PageInfoImages/Maps/${imgName}')`
                         }}>
 
                     </div>

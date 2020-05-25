@@ -9,7 +9,7 @@ const image = props => {
             document.documentElement.scrollTop = 0;
         }}
         style={{
-            backgroundImage: "url('/images/PageInfoImages/ListingPhotos/" + props.src + ".jpg')"
+            backgroundImage: "url('" + process.env.PUBLIC_URL + "/images/PageInfoImages/ListingPhotos/" + props.src + ".jpg')"
         }}>
         <div className={classes.Gradient}></div>
         <div className={classes.PlaceName}>{props.place}</div>

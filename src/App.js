@@ -1,5 +1,5 @@
 import React from 'react';
-import {Switch, Route} from 'react-router-dom'
+import {Switch, Route, Redirect} from 'react-router-dom'
 import classes from './App.module.css';
 import Home from './containers/Home/Home'
 import About from './components/AboutUsPage/About'
@@ -23,6 +23,7 @@ function App() {
         <Route path="/listing/BurnabyLake/Maps" exact component={HouseMaps}/>
         <Route path="/listing" exact render={()=><Listing isActive={true}/>}/>
         <Route path="/mlsSearch" exact component={Listing}/>
+        <Redirect from="/cm-project" to="/"/>
       </Switch>
     </div>
   );

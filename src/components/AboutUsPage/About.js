@@ -20,7 +20,10 @@ class About extends Component {
         <NavigationText />
         <div className={fonts.Title}>ABOUT</div>
         <div className={classes.About} id="about">
-          <div className={classes.AboutPhoto}></div>
+          <div className={classes.AboutPhoto}
+          style={{
+            backgroundImage: `url("${process.env.PUBLIC_URL}/images/aboutPhoto.jpg")`
+          }}></div>
           <div className={classes.AboutSession}>
             <p className={fonts.Title}>Andrea Castro</p>
             <p

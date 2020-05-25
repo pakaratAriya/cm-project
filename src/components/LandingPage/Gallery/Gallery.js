@@ -44,7 +44,7 @@ const gallery = (props) => {
               " "
             )}
             style={{
-              backgroundImage: "url('/images/IndexGalleryImages/" + g + "')",
+              backgroundImage: `url('${process.env.PUBLIC_URL}/images/IndexGalleryImages/${g}')`,
               backgroundSize: "cover",
             }}
           >

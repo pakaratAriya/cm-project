@@ -46,7 +46,7 @@ class HouseInfo extends React.Component{
                 <div className={fonts.Title}>8600 BURNABY LAKE</div>
                 <div className={classes.BigImage}
                     style={{
-                        backgroundImage: "url('/images/PageInfoImages/HousePhotos/" + this.state.allImageNames[this.state.curIndex] + "')",
+                        backgroundImage: `url('${process.env.PUBLIC_URL}/images/PageInfoImages/HousePhotos/${this.state.allImageNames[this.state.curIndex]}')`,
                         opacity: this.state.loading ? "0" : "1"
                     }}>
                             
@@ -59,7 +59,7 @@ class HouseInfo extends React.Component{
                     <div className={classes.SmallImage}
                         key={index}
                         style={{
-                            backgroundImage: "url('/images/PageInfoImages/HousePhotos/" + imageName + "')"
+                            backgroundImage: `url('${process.env.PUBLIC_URL}/images/PageInfoImages/HousePhotos/${imageName}')`
                         }}
                         onClick={()=>this.onClickSmallImageHandler(index)}>
 
@@ -98,7 +98,10 @@ class HouseInfo extends React.Component{
                         </tbody>
                     </table>
                 </div>
-                <div className={classes.HouseDetail}>
+                <div className={classes.HouseDetail}
+                style={{
+                    backgroundImage: `url("${process.env.PUBLIC_URL}/images/PageInfoImages/genral_info_table.png")`
+                }}>
 
                 </div>
                 <UpdateInfoSession/>

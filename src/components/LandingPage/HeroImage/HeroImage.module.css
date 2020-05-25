@@ -1,6 +1,5 @@
 .HeroImage {
   display: grid;
-  background-image: url("/images/heroImage.jpg");
   background-size: cover;
   height: 100vh;
   grid-template-rows: 30% 40% 30%;

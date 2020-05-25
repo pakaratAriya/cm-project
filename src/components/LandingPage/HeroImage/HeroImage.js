@@ -6,7 +6,10 @@ import SearchHome from "./SearchHome/SearchHome";
 import Header from "../../Header/Header";
 
 const heroImage = (props) => (
-  <div className={classes.HeroImage}>
+  <div className={classes.HeroImage}
+  style={{
+    backgroundImage: `url("${process.env.PUBLIC_URL}/images/heroImage.jpg")`,
+  }}>
     <Header none="none" />
     <SearchHome />
   </div>
