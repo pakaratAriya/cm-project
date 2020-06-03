@@ -19,7 +19,10 @@ const searchBar = props => {
                     const vals = e.target.value.split(',')
                     props.onChangePrice(vals[0],vals[1])
                     
-                    }}>
+                    }}
+                    style={{
+                        backgroundImage: `url('${process.env.PUBLIC_URL}/images/arrowdown.png')`
+                    }}>>
                 <option disabled selected hidden>Price Range</option>
                 <option value={[1000000, 1999999]}>1000000-1999999</option>
                 <option value={[2000000, 9999999]}>2000000-9999999</option>
@@ -28,14 +31,17 @@ const searchBar = props => {
             </select>
             <select className={classes.Select} 
             style={{
-                backgroundImage: `url('${process.env.PUBLIC_URL}/images/DownArrow.png') `
+                backgroundImage: `url('${process.env.PUBLIC_URL}/images/arrowdown.png')`
             }}>
                 <option disabled selected hidden>Bedrooms</option>
                 <option>2 Bedrooms</option>
                 <option>3 Bedrooms</option>
                 <option>over 4 Bedrooms</option>
             </select>
-            <select className={classes.Select}>
+            <select className={classes.Select}
+            style={{
+                backgroundImage: `url('${process.env.PUBLIC_URL}/images/arrowdown.png')`
+            }}>>
                 <option disabled selected hidden>Bathrooms</option>
                 <option>2 Bathrooms</option>
                 <option>3 Bathrooms</option>

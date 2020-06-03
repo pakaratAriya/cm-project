@@ -31,8 +31,9 @@
     appearance: none;
     -webkit-appearance: none;
     -moz-appearance: none;
-    background-size: 10% 80%;
+
     background-position-x: right;
+    background-position-y: center;
     background-repeat: no-repeat;
     background-blend-mode: multiply;
 }
