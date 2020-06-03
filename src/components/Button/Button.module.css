@@ -50,3 +50,7 @@
 .GoldBorder {
   border: 2px #aa8900 solid;
 }
+
+.LightGoldBorder {
+  border: 2px rgba(182, 159, 94, 1) solid;
+}

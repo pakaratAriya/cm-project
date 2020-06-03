@@ -29,11 +29,11 @@ class ContactForm extends Component {
                     <input className={classes.ContactInput} placeholder="###-###-####" required/>
                 </div>
                 <div className={classes.MessageWrapper}>
-                    <p className={classes.Label}>Message*</p>
+                    <p className={classes.Label}>MESSAGE*</p>
                     <textarea className={classes.MessageInput} placeholder="" required/>
                 </div>
                 <Button
-                    myClass={["smallBtn", "goldBorder", "transparentBackground", "whiteText"]}
+                    myClass={["smallBtn", "lightGoldBorder", "transparentBackground", "whiteText"]}
                     style={{
                         float: 'right',
                         marginTop: "30px"

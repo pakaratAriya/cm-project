@@ -11,9 +11,12 @@ const image = props => {
         style={{
             backgroundImage: "url('" + process.env.PUBLIC_URL + "/images/PageInfoImages/ListingPhotos/" + props.src + ".jpg')"
         }}>
-        <div className={classes.Gradient}></div>
-        <div className={classes.PlaceName}>{props.place}</div>
-        <div className={classes.Price}>${props.price.toLocaleString()}</div>
+            <div className={classes.TextWrapper}>
+                <div className={classes.Gradient}></div>
+                <div className={classes.PlaceName}>{props.place}</div>
+                <div className={classes.Price}>${props.price.toLocaleString()}</div>
+            </div>
+        
     </div>
     )
 }

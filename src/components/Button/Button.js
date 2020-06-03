@@ -7,6 +7,7 @@ const button = (props) => {
   myClass.push(classes.Button);
   myClass.push(fonts.Caption);
   if (props.myClass.includes("goldBorder")) myClass.push(classes.GoldBorder);
+  if (props.myClass.includes("lightGoldBorder")) myClass.push(classes.LightGoldBorder);
   if (props.myClass.includes("goldBackground"))
     myClass.push(classes.GoldBackground);
   if (props.myClass.includes("transparentBackground"))

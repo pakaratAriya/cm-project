@@ -9,7 +9,8 @@
     width: 100%;
     height: 600px;
     background-image: url("/images/PageInfoImages/gallery-0.png");
-    background-size: 100% 100%;
+    background-size: cover;
+    background-position: center;
     transition: 0.5s;
 }
 

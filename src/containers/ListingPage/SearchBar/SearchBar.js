@@ -26,7 +26,10 @@ const searchBar = props => {
                 <option value={[10000000, Infinity]}>over 10000000</option>
                 <option value={[0, Infinity]}>All price</option>
             </select>
-            <select className={classes.Select}>
+            <select className={classes.Select} 
+            style={{
+                backgroundImage: `url('${process.env.PUBLIC_URL}/images/DownArrow.png') `
+            }}>
                 <option disabled selected hidden>Bedrooms</option>
                 <option>2 Bedrooms</option>
                 <option>3 Bedrooms</option>
