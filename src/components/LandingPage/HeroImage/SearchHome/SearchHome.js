@@ -11,7 +11,7 @@ const searchHome = (props) => (
     <input
       type="text"
       className={[classes.SearchInput, fonts.Caption, fonts.Gold].join(" ")}
-      placeholder="Price, Neighborhood, City, Country"
+      placeholder="CITY, PRICE, AREA"
     />
     <Button
       myClass={["smallBtn", "goldBorder", "goldBackground", "whiteText"]}

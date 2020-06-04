@@ -13,6 +13,12 @@
   width: 40%;
   border-radius: 5px;
   display: inline-block;
-  border-width: 1px;
+  border-width: 0px;
   padding-left: 5px;
+}
+
+::placeholder {
+  color: #aa8900;
+  font-weight: 600;
+  opacity: 1; /* Firefox */
 }
