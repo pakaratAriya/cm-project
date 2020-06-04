@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import classes from "./Home.module.css";
-import About from "../../components/LandingPage/AboutSession/About";
+import AboutAndrea from "../../components/AboutUsPage/AboutAndrea/AboutAndrea";
 import Gallery from "../../components/LandingPage/Gallery/Gallery";
 import Contact from "../Contact/Contact";
 import Footer from "../../components/Footer/Footer";
@@ -13,7 +13,7 @@ class Home extends Component {
       <div className={classes.Home}>
         <HeroImage />
         <Gallery />
-        <About />
+        <AboutAndrea />
         <Testimonials />
         <Contact />
         <Footer />
