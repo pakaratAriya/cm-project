@@ -1,0 +1,27 @@
+.About {
+  height: 80vh;
+  display: grid;
+  grid-template-columns: 45% 55%;
+  padding: 50px 20px 100px 20px;
+}
+
+.AboutPhoto {
+  grid-column: 1 / 2;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.AboutSession {
+  background-color: white;
+  align-self: start;
+}
+
+.AboutMessage {
+  font-size: 17px;
+  margin: 50px 20px;
+}
+
+.AboutButton {
+  margin-left: 20px;
+}
