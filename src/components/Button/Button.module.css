@@ -2,15 +2,15 @@
   cursor: pointer;
 }
 
-.SmallButton{
-    width: 130px;
-    height: 40px;
-    border-radius: 10px;
-    line-height: 40px;
-    text-align: center;
-    font-weight: 600;
-    font-size: 14px;
-    display: inline-block;
+.SmallButton {
+  width: 130px;
+  height: 40px;
+  border-radius: 10px;
+  line-height: 40px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 14px;
+  display: inline-block;
 }
 
 .MediumButton {
@@ -34,8 +34,6 @@
   text-align: center;
   font-weight: 600;
   border-radius: 5px;
-  margin: 40px 20px;
-  margin-bottom: 0;
   display: inline-block;
 }
 
