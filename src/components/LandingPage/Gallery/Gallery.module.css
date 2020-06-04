@@ -5,41 +5,28 @@
 
 .Title {
   text-align: center;
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-
-.ListContainer {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 1em;
-}
-
-.ListItem {
-  display: block;
-  padding-top: 40vh;
-  padding-left: 30px;
+  padding: 50px 0 30px 0;
 }
 
 .GalleryButton {
   text-align: center;
-  margin-bottom: 40px;
 }
 
-.Location,
-.Price {
-  /* hide the title by default */
-  opacity: 0;
-  transition: opacity 0.5s;
+.ListingGallery {
+  width: calc(100% - 40px);
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 33.33%);
+  grid-gap: auto;
+  margin-bottom: 20px;
+  overflow: hidden;
+  transition: 0.5s;
 }
 
-.ListItem:hover .Location {
-  opacity: 1;
-}
-.ListItem:hover .Price {
-  opacity: 1;
-}
-
-.ListItem > p {
-  margin: 2px;
+.NoResultText {
+  font-size: 30px;
+  font-weight: 600;
+  grid-column: 1 / span 3;
+  text-align: center;
+  width: 100%;
 }

@@ -3,31 +3,8 @@ import { withRouter } from "react-router-dom";
 import classes from "./Gallery.module.css";
 import fonts from "../../../globalCss/Fonts.module.css";
 import Button from "../../Button/Button";
-
-const galleryList = [
-  "gallery1.jpg",
-  "gallery2.jpg",
-  "gallery3.jpg",
-  "gallery4.jpg",
-  "gallery5.jpg",
-  "gallery6.jpg",
-];
-const galleryLocations = [
-  "Vancouver BC",
-  "Burnaby BC",
-  "Burnaby BC",
-  "Vancouver BC",
-  "Vancouver BC",
-  "Vancouver BC",
-];
-const galleryPrice = [
-  "$1,000,000.00",
-  "$4,000,000.00",
-  "$15,000,000.00",
-  "$20,000,000.00",
-  "$10,000,000.00",
-  "$15,000,000.00",
-];
+import imagePlaceholder from "../../../DataPlaceholder/imagePlaceholder";
+import Image from "../../Image/Image";
 
 const gallery = (props) => {
   return (
@@ -36,22 +13,12 @@ const gallery = (props) => {
         FEATURED LISTINGS
       </p>
 
-      <div className={classes.ListContainer}>
-        {galleryList.map((g, index) => (
-          <div
-            key={index}
-            className={[classes.ListItem, fonts.Subtitle, fonts.White].join(
-              " "
-            )}
-            style={{
-              backgroundImage: `url('${process.env.PUBLIC_URL}/images/IndexGalleryImages/${g}')`,
-              backgroundSize: "cover",
-            }}
-          >
-            <p className={classes.Location}>{galleryLocations[index]}</p>
-            <p className={classes.Price}>{galleryPrice[index]}</p>
-          </div>
-        ))}
+      <div className={classes.ListingGallery}>
+        {imagePlaceholder.slice(0, 6).map((image) => {
+          return (
+            <Image src={image.url} place={image.place} price={image.price} />
+          );
+        })}
       </div>
 
       <div className={classes.GalleryButton}>
