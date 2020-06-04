@@ -16,9 +16,7 @@ const About = (props) => (
       <p className={[classes.AboutTitle, fonts.Title, fonts.Black].join(" ")}>
         Andrea Castro
       </p>
-      <p
-        className={[classes.AboutMessage, fonts.Caption, fonts.Black].join(" ")}
-      >
+      <p className={[classes.AboutMessage, fonts.Black].join(" ")}>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultrices mattis
         enim semper platea libero. Viverra bibendum tellus habitant consectetur.
         Pellentesque vestibulum est ullamcorper ultricies nec sit ut. Hendrerit
