@@ -14,7 +14,9 @@ const header = (props) => {
     <div
       className={classes.Header}
       style={{
-        backgroundImage: `url("${process.env.PUBLIC_URL}/images/hero_img.png")`,
+        backgroundImage: props.notActive
+          ? null
+          : `url("${process.env.PUBLIC_URL}/images/hero_img.png")`,
       }}
     >
       <div
