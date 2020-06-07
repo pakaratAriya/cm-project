@@ -19,6 +19,7 @@ const button = (props) => {
   if (props.myClass.includes("smallBtn")) myClass.push(classes.SmallButton);
   if (props.myClass.includes("mediumBtn")) myClass.push(classes.MediumButton);
   if (props.myClass.includes("largeBtn")) myClass.push(classes.LargeButton);
+  if (props.myClass.includes("whiteHover")) myClass.push(classes.WhiteHover);
   return (
     <div
       className={myClass.join(" ")}

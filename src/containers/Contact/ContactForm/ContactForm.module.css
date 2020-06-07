@@ -17,6 +17,11 @@
     color: white;
     padding-left: 20px;
     box-sizing: border-box;
+    transition: 0.3s;
+}
+
+.NameInput:hover{
+    background-color: rgba(182, 159, 94, 0.3);
 }
 
 .NameWrapper{
@@ -35,6 +40,11 @@
     color: white;
     padding-left: 10px;
     box-sizing: border-box;
+    transition: 0.3s;
+}
+
+.ContactInput:hover{
+    background-color: rgba(182, 159, 94, 0.3);
 }
 
 .ContactInputWrapper{
@@ -60,4 +70,9 @@
     color: white;
     padding-left: 10px;
     box-sizing: border-box;
+    transition: 0.3s;
+}
+
+.MessageInput:hover{
+    background-color: rgba(182, 159, 94, 0.3);
 }

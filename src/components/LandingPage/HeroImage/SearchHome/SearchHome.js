@@ -14,7 +14,7 @@ const searchHome = (props) => (
       placeholder="CITY, PRICE, AREA"
     />
     <Button
-      myClass={["smallBtn", "goldBorder", "goldBackground", "whiteText"]}
+      myClass={["smallBtn", "goldBorder", "goldBackground", "whiteText", "whiteHover"]}
       style={{
         gridColumn: "20/24",
         display: "inline-block",
